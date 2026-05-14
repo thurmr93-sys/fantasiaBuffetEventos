@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carrossel-boot{
+    margin: auto;
+    width: 1342px;
+        margin-top: 20px;
+    border-radius: 15px;
+box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.178);
+} 
