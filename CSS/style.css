@@ -1,24 +1,32 @@
+/* 1. Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 .navbar {
-    background-color: #0F172A !important;
+    background-color: #0F172A !important; 
+    height: 85px;
 }
 
-.nav-link {
-    color: #F3E5C3 !important;
+
+.navbar-nav .nav-link {
+    color: #F3E5C3 !important; 
     font-weight: 600;
+    transition: color 0.3s ease; /
 }
 
-.nav-link:hover {
-    color: #93C5FD !important;
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #93C5FD !important; 
 }
+
 
 .carrossel-boot {
-    width: 90%;
+    width: 85%;
     margin: 20px auto 0;
     border-radius: 15px;
     overflow: hidden;
@@ -50,4 +58,8 @@
     font-weight: 600;
     border-radius: 8px;
     border: none;
+}
+
+.rodape {
+    background-color: #0F172A;
 }
