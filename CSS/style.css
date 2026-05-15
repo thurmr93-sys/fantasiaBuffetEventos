@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* NAVBAR */
 .navbar {
     background-color: #0F172A !important;
 }
@@ -18,15 +17,37 @@
     color: #93C5FD !important;
 }
 
-.navbar-brand img {
-    filter: brightness(1.1);
-}
-
-/* CARROSSEL */
 .carrossel-boot {
     width: 90%;
     margin: 20px auto 0;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.apresentacao {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.apresentacao h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+
+.apresentacao p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-agendamento {
+    background-color: #93C5FD;
+    color: #0F172A;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
 }
