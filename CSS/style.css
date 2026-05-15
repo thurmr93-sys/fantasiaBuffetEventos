@@ -1,11 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.carrossel-boot{
-    margin: auto;
-    width: 1342px;
-        margin-top: 20px;
+
+/* NAVBAR */
+.navbar {
+    background-color: #0F172A !important;
+}
+
+.nav-link {
+    color: #F3E5C3 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #93C5FD !important;
+}
+
+.navbar-brand img {
+    filter: brightness(1.1);
+}
+
+/* CARROSSEL */
+.carrossel-boot {
+    width: 90%;
+    margin: 20px auto 0;
     border-radius: 15px;
-box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.178);
-} 
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
